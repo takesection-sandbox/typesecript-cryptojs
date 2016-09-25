@@ -3,9 +3,11 @@
         "target": "es5",
         "module": "commonjs",
         "moduleResolution": "node",
+        "sourceMap": true,
         "removeComments": false
     },
     "files": [
-        "typings/index.d.ts"
+        "typings/index.d.ts",
+        "app/main.ts"
     ]
 }
